@@ -1,5 +1,60 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
+*{
+    box-sizing: border-box;
+}
+
+body{
+   background: #a5aac5;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   min-height: 100vh;
+   margin: 0;
+
+}
+.container{
+    background-color:#101010;
+    height: 270px;
+    border-radius: 30px;
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 20px;
+
+}
+.circle{
+    background: rgba(0,0,0,0.3);
+    border-radius: 50%;
+    position:relative;
+    height: 60px;
+    width: 60px;
+}
+.circle:after{
+    border-right: 8px solid rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    content: "";
+    position: absolute;
+    width: 58px;
+    height: 58px;
+    top: 2px;
+    bottom: 3px;
+
+}
+.circle.red{
+    background-color: red;
+    box-shadow: 0 0 15px 10px red;
+}
+.circle.yellow{
+    background-color: yellow;
+    box-shadow: 0 0 15px 10px #ffff66;
+}
+.circle.green{
+    background-color: #00ff00;
+    box-shadow: 0 0 15px 10px #00ff00;
+}
 /* 
 
     You can write your own styles here...
