@@ -43,17 +43,23 @@ body{
     bottom: 3px;
 
 }
-
+#redOne{
+    background: red;
+}
+#yellowOne{
+    background: yellow;
+}
+#greenOne{
+    background: #00ff00;
+}
 .circle-red{
-    box-shadow: 0 0 15px 10px red;
+    box-shadow: 0 0 25px 15px red;
 }
 .circle-yellow{
-    background: yellow;
-    box-shadow: 0 0 15px 10px #ffff66;
+    box-shadow: 0 0 25px 15px #ffff66;
 }
 .circle-green{
-    background: #00ff00;
-    box-shadow: 0 0 15px 10px #00ff00;
+    box-shadow: 0 0 25px 15px #00ff00;
 }
 /* 
 

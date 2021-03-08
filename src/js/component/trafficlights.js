@@ -9,12 +9,15 @@ export function TrafficLights() {
 	return (
 		<div className="container">
 			<div
+				id="redOne"
 				onClick={() => setSpotlight("red")}
 				className={spotlight === "red" ? "circle-red" : ""}></div>
 			<div
+				id="yellowOne"
 				onClick={() => setSpotlight("yellow")}
 				className={spotlight === "yellow" ? "circle-yellow" : ""}></div>
 			<div
+				id="greenOne"
 				onClick={() => setSpotlight("green")}
 				className={spotlight === "green" ? "circle-green" : ""}></div>
 		</div>
